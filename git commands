@@ -1,0 +1,27 @@
+
+mkdir
+make new directory
+//initialize git
+git init
+// add file to repo or add to staging environment
+git add "filename.ext"
+check status
+git status
+//commit with message
+git commit -m "message"
+//commit without adding to staging environment
+git commimt -a -m "msg"
+//help command
+git command -help
+git help --all
+//if stuck in the list view 
+press shift+G
+press q //to exit the view
+//create new branch 
+git branch "hello-world-images"
+//check status of branch or check branch list the 
+git branch 
+//move to current branch to another
+git checkout "branchname"
+//add repository to remote
+git add origin "url"
